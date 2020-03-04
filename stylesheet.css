@@ -20,6 +20,10 @@ body {
     flex-direction: column;
 }
 
+#left h2 {
+    margin: 0;
+}
+
 #left .forfooter {
     flex: 1 0 auto;
 }
@@ -106,13 +110,13 @@ body {
     color: #A66464;
 }
 
-#right .header div {
+#right .header h3 {
     font-style: italic;
     color: black;
     margin: 0 auto;
 }
 
-#right .header div .header__job--colored-underline {
+#right .header h3 .header__job--colored-underline {
     border-bottom: 2px solid #A66464;
 }
 
@@ -247,7 +251,16 @@ body {
         margin-top: 30px;
     }
 
-    #right .contact--mobile div+ div {
+    #right .contact--mobile h2 {
+        margin: 0;
+    }
+
+    #right .aboutme--mobile h2 {
+        margin: 0;
+    }
+
+
+    #right .contact--mobile div {
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 0 25px;
@@ -298,7 +311,7 @@ body {
         display: block;
     }
 
-    #right .aboutme--mobile div+ div {
+    #right .aboutme--mobile div {
         padding: 15px 30px;
         background-color: #A66464;
     }
